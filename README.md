@@ -21,3 +21,13 @@ Now all we need to do is that adding the childs to the parent. So
 - add the stack screen on the `settings/_layout.tsx` file
 - now add the settings in the mainLayout file (whatever we do we must add the new layout system to the parent layout. Here we are adding the setting to the mainLayout )
 - now we can navigate to `/settings/options` and `/settings` i.e. the setting index from anywhere
+
+# 3. Creating dynamic routes:
+
+- RootLayout (parent)
+  - ProductsLayout (child of root)
+    - [id].tsx and index.tsx (children of ProductLayout)
+
+1. Just start adding from below add [id].tsx and index.tsx in the productLayout stack.screen and add product in the rootLayout
+2. just use map to view all the products and use link or router.push()
+3. see the [id].tsx how to get the ids of each product and find them
