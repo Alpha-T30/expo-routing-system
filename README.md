@@ -22,7 +22,7 @@ Now all we need to do is that adding the childs to the parent. So
 - now add the settings in the mainLayout file (whatever we do we must add the new layout system to the parent layout. Here we are adding the setting to the mainLayout )
 - now we can navigate to `/settings/options` and `/settings` i.e. the setting index from anywhere
 
-# 3. Creating dynamic routes:
+## 3. Creating dynamic routes:
 
 - RootLayout (parent)
   - ProductsLayout (child of root)
@@ -31,3 +31,10 @@ Now all we need to do is that adding the childs to the parent. So
 1. Just start adding from below add [id].tsx and index.tsx in the productLayout stack.screen and add product in the rootLayout
 2. just use map to view all the products and use link or router.push()
 3. see the [id].tsx how to get the ids of each product and find them
+
+## Adding some tabs on the bottom of the app:
+
+1. create a folder called (tabs) or whatever you want. Inside this folder we can put some of the files and folder that we want to show as tabs on the bottom portion of the app.
+2. keep the other folders and file out of the tabs folder
+3. again tabs folder is a child of rootLayout so add it on the rootLayout
+4. on the tabs layout add all the children of the tabs (files/folder)

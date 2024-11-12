@@ -10,10 +10,8 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Link href={"/about"}>Go to the About Screen</Link>
       <Link href={"/settings"}>Go to the Setting Screen</Link>
       <Link href={"/settings/options"}>Go to the Setting Options</Link>
-      <Link href={"/products"}>Go to the Products</Link>
     </View>
   );
 }
